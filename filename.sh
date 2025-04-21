@@ -9,7 +9,7 @@ if [[ -f "$input_file" ]]; then
 
   # Loop through each line
   while IFS= read -r line; do
-    echo "Line: $line"
+    echo " aws ecr create-repository --repository-name test3 --region ap-south-1: $line"
   done < "$input_file"
 
 else
