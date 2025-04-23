@@ -1,5 +1,6 @@
 provider "aws" {
   region = "ap-south-1"
+FILE_NAME = 's3bucket.tf'
 }
 
 resource "aws_instance" "example" {
